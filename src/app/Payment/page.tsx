@@ -32,7 +32,7 @@ export default function Payment() {
             className="p-2 h-12 rounded-md w-2/5 border border-red-300"
             placeholder="Enter your Adress"
           />
-          <button className="rounded-md p-3 bg-blue-800 text-white ">
+          <button className="rounded-md p-3 bg-blue-800 text-white hover:bg-blue-600">
             <Link href="Thankyou">Place your Order</Link>
           </button>
         </form>

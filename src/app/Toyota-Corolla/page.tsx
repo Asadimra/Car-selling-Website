@@ -46,8 +46,8 @@ export default function Corolla() {
       <h1 className="flex justify-center mt-8 text-green-600 text-2xl font-semibold ">
         PKR 50,00,000
       </h1>
-      <div className="flex justify-center items-center m-auto h-14 w-40 my-12 bg-blue-800 rounded-md text-white">
-        <button>
+      <div className="flex justify-center items-center m-auto h-14 w-40 my-12 bg-blue-800 rounded-md text-white hover:bg-blue-600">
+        <button >
           <Link href="Payment">Make Payment</Link>
         </button>
       </div>

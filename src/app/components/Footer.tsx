@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
-        <div className="bg-neutral-800 text-white mt-10">
-            <h1 className="flex justify-center h-14 items-center">copyright &copy; All Reserved</h1>
+        <div className="bg-neutral-800 text-white  h-28 pt-4 ">
+            <h1 className="flex justify-center  items-center ">copyright &copy; All Reserved</h1>
             <h2 className="flex justify-end mx-14">Click to Connect</h2>
             <div className="flex justify-between mx-10">
             <h2>Made by Asad Imran</h2>

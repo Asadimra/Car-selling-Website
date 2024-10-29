@@ -16,7 +16,7 @@ export default function Hero() {
               <p>Get Genuine offers from Verified Buyers</p>
               <p>Sell your Car Fast at the Best Price</p>
             </div>
-            <div className="bg-red-500 w-40 h-10 text-center my-6 mx-20 py-2 rounded-md ">
+            <div className="bg-red-500 hover:bg-red-400 w-40 h-10 text-center my-6 mx-20 py-2 rounded-md ">
               <button>Post Your Ad</button>
             </div>
           </div>
@@ -29,13 +29,13 @@ export default function Hero() {
               <p>We Bargain For you and share the Best Offer</p>
               <p>We ensure Safe & Secure Transaction</p>
             </div>
-            <div className="bg-blue-400 w-40 h-10 text-center my-6 mx-20 py-2 rounded-md ">
+            <div className="bg-blue-500 hover:bg-blue-400 w-40 h-10 text-center my-6 mx-20 py-2 rounded-md ">
               <button>Register your Car</button>
             </div>
           </div>
         </div>
       </section>
-      <section className="h-96 w-3/4 bg-zinc-100 mx-40  ">
+      <section className=" w-4/5 bg-zinc-100 m-auto  ">
         <div className=" flex justify-between px-4 ">
           <h2 className="text-xl ">Feature New Cars</h2>
           <a className="text-blue-400" href="">
@@ -45,21 +45,23 @@ export default function Hero() {
         <div>
           <ul className="flex my-4">
             <li className="px-5 underline underline-offset-8 decoration-blue-800 ">
-              <a href="">Popular</a>
+              <a href=".html">Popular</a>
             </li>
-            <li className="px-5">
-              <a href="">Upcoming</a>
+            <li className="px-5 hover:underline underline-offset-8 decoration-blue-800 ">
+              <a href=".html">Upcoming</a>
             </li>
-            <li className="px-5">
-              <a href="">Newly Launched</a>
+            <li className="px-5 hover:underline underline-offset-8 decoration-blue-800">
+              <a href=".html">Newly Launched</a>
             </li>
           </ul>
         </div>
-        <div className="flex gap-6 h-96 bg- ">
+        <div className="flex ml-3 gap-10 h-72 mt-14 ">
           <div className="h-60  bg-white">
-            <img className="h-36 w-60   flex" src="/corolla.jpg" alt="" />
+            <Link className="h-36 flex " href="Toyota-Corolla">
+              <img src="/corolla.jpg" alt="" />
+            </Link>
             <Link
-              className="flex justify-center font-semibold text-blue-700 hover:text-blue-400" 
+              className="flex justify-center font-semibold text-blue-700 hover:text-blue-400"
               href="Toyota-Corolla"
             >
               Toyota Corolla
@@ -70,8 +72,9 @@ export default function Hero() {
             <h5 className="flex justify-center text-gray-400">621 Reviews</h5>
           </div>
           <div className="h-60   bg-white">
-            <img className="h-36 w-60 flex" src="/alto.png" alt="" />
-
+            <Link className="h-36  flex" href="Suzuki-Alto">
+              <img src="/alto.png" alt="" />
+            </Link>
             <Link
               className="flex justify-center font-semibold text-blue-700 hover:text-blue-400"
               href="Suzuki-Alto"
@@ -83,8 +86,11 @@ export default function Hero() {
             </h4>
             <h5 className="flex justify-center text-gray-400">199 Reviews</h5>
           </div>
-          <div className="h-60  bg-white">
-            <img className="h-36 w-60 flex" src="/Honda.jpg" alt="" />
+          <div className="h-60 bg-white">
+            <Link className="h-36 flex" href="Honda-City">
+              {" "}
+              <img src="/Honda.jpg" alt="" />
+            </Link>
             <Link
               className="flex justify-center font-semibold text-blue-700 hover:text-blue-400"
               href="Honda-City"
@@ -97,7 +103,10 @@ export default function Hero() {
             <h5 className="flex justify-center text-gray-400">458 Reviews</h5>
           </div>
           <div className="h-60   bg-white ">
-            <img className="h-36  w-60 flex" src="/Civic.jpg" alt="" />
+            <Link className="h-36 flex" href="Honda-Civic">
+              <img src="/Civic.jpg" alt="" />
+            </Link>
+
             <Link
               className="flex justify-center font-semibold text-blue-700 hover:text-blue-400"
               href="Honda-Civic"
